@@ -17,4 +17,7 @@ t4 = "Daniel sends 0.3 MC to Anna"
 t5 = "Mike sends 1 MC to Charlie" 
 t6 = "Mike sends 5.4 MC to Daniel"
 
-initial_block = MFB_Block("Initial String")
+initial_block = MFB_Block("Initial String", [t1, t2])
+
+print(initial_block.block_data)
+print(initial_block.block_hash)
