@@ -26,3 +26,8 @@ second_block = MFB_Block(initial_block.block_hash, [t3, t4])
 
 print(second_block.block_data)
 print(second_block.block_hash)
+
+third_block = MFB_Block(second_block.block_hash, [t5, t6])
+
+print(third_block.block_data)
+print(third_block.block_hash)
