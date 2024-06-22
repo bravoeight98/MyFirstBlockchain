@@ -21,3 +21,8 @@ initial_block = MFB_Block("Initial String", [t1, t2])
 
 print(initial_block.block_data)
 print(initial_block.block_hash)
+
+second_block = MFB_Block(initial_block.block_hash, [t3, t4])
+
+print(second_block.block_data)
+print(second_block.block_hash)
