@@ -7,4 +7,5 @@ class MFB_Block:
         self.transaction_list = transaction_list
 
         self.block_data = "-".join(transaction_list) + "-" + previous_block_hash
+        self.block_hash = hashlib.sha256(self.block_data.encode()).hexdigest()
 
