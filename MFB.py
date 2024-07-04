@@ -14,7 +14,7 @@ t1 = "Anna sends 2 MC to Mike"
 t2 = "Bob sends 4.1 MC to Mike" 
 t3 = "Mike sends 3.2 MC to Bob" 
 t4 = "Daniel sends 0.3 MC to Anna" 
-t5 = "Mike sends 1 MC to Charlie" 
+t5 = "Mike sends 1.2 MC to Charlie" 
 t6 = "Mike sends 5.4 MC to Daniel"
 
 initial_block = MFB_Block("Initial String", [t1, t2])
